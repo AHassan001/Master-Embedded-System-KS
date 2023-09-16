@@ -34,4 +34,3 @@ void main()
 		printf("You entered zero.",x);
 	}
 }
-

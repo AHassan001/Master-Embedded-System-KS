@@ -1,5 +1,5 @@
 /*
- * EX7.c
+ *  Ex7.c
  *
  *  Created on: Sep 15, 2023
  *      Author: Abdelrahman Maher

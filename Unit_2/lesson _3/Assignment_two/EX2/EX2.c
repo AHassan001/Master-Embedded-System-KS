@@ -1,3 +1,4 @@
+
 /*
  * EX2.c
  *
@@ -26,3 +27,5 @@ void main()
 	else
 		printf ("%c is a Consonant.",ch);
 }
+
+

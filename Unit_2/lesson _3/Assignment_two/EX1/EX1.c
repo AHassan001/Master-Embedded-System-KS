@@ -14,6 +14,7 @@
 
 void main()
 {
+
 	int x = 0;
 
 	printf("Enter an integer you want to check: ");
@@ -26,5 +27,5 @@ void main()
 	else
 		printf("%d is odd.",x);
 
-
 }
+

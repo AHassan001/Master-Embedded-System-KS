@@ -13,7 +13,7 @@
  *
  * */
 
-/*
+
 void main()
 {
 	char First_name[20] = "abdelrahman";
@@ -33,7 +33,7 @@ void main()
 	Name[i] = '\0'; //same as 0 (NULL)
 	printf("%s",Name);
 }
- */
+
 
 /**********************************************************************/
 /*

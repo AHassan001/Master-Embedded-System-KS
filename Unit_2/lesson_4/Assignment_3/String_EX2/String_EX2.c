@@ -4,7 +4,11 @@
  *  Created on: Sep 24, 2023
  *      Author: Abdelrahman Maher
  */
-
+/*
+ *
+ * calculate the length of a string
+ *
+ * */
 #include "stdio.h"
 
 void main ()

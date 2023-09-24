@@ -4,7 +4,11 @@
  *  Created on: Sep 24, 2023
  *      Author: Abdelrahman Maher
  */
-
+/*
+ *
+ * Reverse the string.
+ *
+ * */
 #include "stdio.h"
 #include "stdlib.h"
 

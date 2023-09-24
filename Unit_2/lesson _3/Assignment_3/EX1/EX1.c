@@ -16,9 +16,9 @@
 
 void main()
 {
-	float mat_one[2][2] = { {0,0},{0,0} };
-	float mat_two[2][2] = { {0,0},{0,0} };
-	float sum    [2][2] = { {0,0},{0,0} };
+	float mat_one[2][2] = {0};
+	float mat_two[2][2] = {{0,0},{0,0} };
+	float sum    [2][2];
 
 	char i=0, j=0;
 
@@ -27,7 +27,7 @@ void main()
 	{
 		for(j=0 ; j<2 ;j++)
 		{
-			printf("Enter a%d%d:",i+1,j+1);
+			printf("Enter a%d%d: ",i+1,j+1);
 			fflush(stdin);	fflush(stdout);
 			scanf("%f",&mat_one[i][j]);
 		}
@@ -38,13 +38,13 @@ void main()
 		{
 			for(j=0 ; j<2 ;j++)
 			{
-				printf("Enter b%d%d:",i+1,j+1);
+				printf("Enter b%d%d: ",i+1,j+1);
 				fflush(stdin);	fflush(stdout);
 				scanf("%f",&mat_two[i][j]);
 			}
 		}
 
-	printf("Sum of Matrix: \n");
+	printf("\nSum of Matrix: \n");
 	for(i=0 ; i<2 ;i++)
 		{
 

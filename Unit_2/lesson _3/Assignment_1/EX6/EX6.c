@@ -33,6 +33,4 @@ void main()
 	printf("After swapping, value of a = %.2f ",a);
 	printf(" \nAfter swapping, value of b = %.1f ",b);
 
-
-	//printf("ASCII value of %c = %d", x,x);
 }

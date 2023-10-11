@@ -1,0 +1,22 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: Abdelrahman Maher
+ */
+int f(int a);
+
+int f(int a)
+{
+	printf("Hello");
+	exit(0);
+
+}
+
+
+void _start()
+{
+	int h=0;
+	h= f(25);
+	printf("%d",h);
+}

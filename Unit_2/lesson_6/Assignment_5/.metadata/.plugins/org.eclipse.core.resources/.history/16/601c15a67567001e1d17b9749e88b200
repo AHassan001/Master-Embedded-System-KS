@@ -1,0 +1,22 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: Abdelrahman Maher
+ */
+void _start();
+int f(int a);
+
+int f(int a)
+{
+	return (a>20)? 10:20;
+
+}
+
+
+void _start()
+{
+	int h=0;
+	h= f(25);
+	printf("%d",h);
+}

@@ -1,0 +1,26 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: Abdelrahman Maher
+ */
+
+#include <stdio.h>
+#include "string.h"
+
+void main()
+{
+	char str1[100];
+	char str2[100]= "Abdelrahman Maher";
+
+	printf("Please enter your username: ");
+	fflush(stdin); fflush(stdout);
+	gets(str1);
+
+	if( stricmp(str1,str2) == 0)
+		printf("the user name is the same");
+	else
+		printf("Sorry not the same user name");
+
+}
+

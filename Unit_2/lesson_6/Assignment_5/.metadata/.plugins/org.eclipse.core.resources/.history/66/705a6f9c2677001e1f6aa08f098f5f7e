@@ -1,0 +1,22 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: Abdelrahman Maher
+ */
+
+#include "stdio.h"
+
+struct Sdata{
+	unsigned int x1;
+	unsigned int x2;
+}bit;
+
+void main()
+{
+	bit = {112,3};
+
+	printf("x1= %d\n",bit.x1);
+	printf("x2= %d",bit.x2);
+
+}

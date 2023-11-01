@@ -1,0 +1,37 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 30, 2023
+ *      Author: Abdelrahman Maher
+ */
+
+ #include "stdio.h"
+
+ struct Student
+ {
+	 char name[25];
+	 int roll;
+	 float mark;
+ }S;
+
+  void  print(S)
+  {
+	  printf("name: %s",S.name);
+	  printf("Roll: %d",S.roll);
+	  printf("Marks: %.2f",S.mark);
+
+  }
+
+ void main ()
+ {
+	printf("Enter name: ");
+	scanf("%s",&S.name);
+
+	printf("Enter roll number: ");
+	scanf("%d",&S.roll);
+
+	printf("Enter marks: ");
+	scanf("%f",&S.mark);
+
+	print(S);
+ }

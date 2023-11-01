@@ -620,3 +620,552 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c"
       |      ^~~~
 gcc -o EX1.exe EX1.o 
 Info: Nothing to build for EX1
+17:52:55 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
+   17 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:21:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   21 |         printf("Size of man= %d\n",sizeof(struct Sdata));
+      |                              ~^    ~~~~~~~~~~~~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+..\EX1.c:24:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   24 |         printf("Size of man= %d\n",sizeof(struct Sdata));
+      |                              ~^    ~~~~~~~~~~~~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+..\EX1.c:26:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   26 |         printf("Size of man= %d\n",sizeof(X));
+      |                              ~^    ~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+..\EX1.c:27:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   27 |         printf("Size of man= %d\n",sizeof(Y));
+      |                              ~^    ~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+gcc -o EX1.exe EX1.o 
+17:57:56 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:18:6: warning: return type of 'main' is not 'int' [-Wmain]
+   18 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:22:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   22 |         printf("Size of man= %d\n",sizeof(struct Sdata));
+      |                              ~^    ~~~~~~~~~~~~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+..\EX1.c:25:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   25 |         printf("Size of man= %d\n",sizeof(struct Sdata));
+      |                              ~^    ~~~~~~~~~~~~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+..\EX1.c:27:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   27 |         printf("Size of man= %d\n",sizeof(X));
+      |                              ~^    ~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+..\EX1.c:28:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   28 |         printf("Size of man= %d\n",sizeof(Y));
+      |                              ~^    ~~~~~~~~~
+      |                               |    |
+      |                               int  long long unsigned int
+      |                              %lld
+gcc -o EX1.exe EX1.o 
+20:24:19 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+20:24:31 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+20:24:53 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+20:25:13 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+20:25:30 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+20:25:55 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+20:26:01 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:17:18: warning: unsigned conversion from 'int' to 'unsigned char:6' changes value from '112' to '48' [-Woverflow]
+   17 |         bit.x1 = 112;
+      |                  ^~~
+gcc -o EX1.exe EX1.o 
+20:26:17 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+20:26:24 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+15:15:59 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+15:16:34 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:17:14: error: expected expression before '{' token
+   17 |         bit ={ 112,3};
+      |              ^
+15:16:44 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:17:15: error: expected expression before '{' token
+   17 |         bit = {112,3};
+      |               ^
+15:17:01 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+15:17:15 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:17:16: error: expected expression before '{' token
+   17 |          bit = {112,3};
+      |                ^
+15:17:26 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+15:17:32 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:17:29: error: expected expression before ',' token
+   17 |         struct Sdata bit = {,3};
+      |                             ^
+15:17:36 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+   15 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+19:00:22 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:13:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   13 |         printf("current time:%d\n",__TIME__);
+      |                              ~^    ~~~~~~~~
+      |                               |    |
+      |                               int  char *
+      |                              %s
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX1
+19:01:42 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:15:32: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   15 |         printf("current time: %s\n",__LINE__);
+      |                               ~^    ~~~~~~~~
+      |                                |    |
+      |                                |    int
+      |                                char *
+      |                               %d
+..\EX1.c:16:32: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   16 |         printf("current time: %s\n",__STDC__);
+      |                               ~^
+      |                                |
+      |                                char *
+      |                               %d
+gcc -o EX1.exe EX1.o 
+19:01:59 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+19:02:30 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+19:02:41 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:16:32: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   16 |         printf("current time: %s\n",__STDC__);
+      |                               ~^
+      |                                |
+      |                                char *
+      |                               %d
+gcc -o EX1.exe EX1.o 
+19:02:57 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:15:32: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   15 |         printf("current time: %s\n",__LINE__);
+      |                               ~^    ~~~~~~~~
+      |                                |    |
+      |                                |    int
+      |                                char *
+      |                               %d
+gcc -o EX1.exe EX1.o 
+19:03:28 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+19:03:34 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+   10 | void main()
+      |      ^~~~
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX1
+20:02:15 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'print':
+..\EX1.c:17:9: warning: type of 'S' defaults to 'int' [-Wimplicit-int]
+   17 |   void  print(S)
+      |         ^~~~~
+..\EX1.c:19:11: warning: implicit declaration of function 'Printf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   19 |           Printf("name: %s",S.name);
+      |           ^~~~~~
+      |           printf
+..\EX1.c:19:30: error: request for member 'name' in something not a structure or union
+   19 |           Printf("name: %s",S.name);
+      |                              ^
+..\EX1.c:20:30: error: request for member 'roll' in something not a structure or union
+   20 |           Printf("Roll: %d",S.roll);
+      |                              ^
+..\EX1.c:21:33: error: request for member 'mark' in something not a structure or union
+   21 |           Printf("Marks: %.2f",S.mark);
+      |                                 ^
+..\EX1.c: At top level:
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:28:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   28 |         scanf("%s",&S.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+20:02:27 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'print':
+..\EX1.c:17:9: warning: type of 'S' defaults to 'int' [-Wimplicit-int]
+   17 |   void  print(S)
+      |         ^~~~~
+..\EX1.c:19:30: error: request for member 'name' in something not a structure or union
+   19 |           printf("name: %s",S.name);
+      |                              ^
+..\EX1.c:20:30: error: request for member 'roll' in something not a structure or union
+   20 |           printf("Roll: %d",S.roll);
+      |                              ^
+..\EX1.c:21:33: error: request for member 'mark' in something not a structure or union
+   21 |           printf("Marks: %.2f",S.mark);
+      |                                 ^
+..\EX1.c: At top level:
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:28:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   28 |         scanf("%s",&S.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+20:02:45 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'print':
+..\EX1.c:17:9: warning: type of 'S' defaults to 'int' [-Wimplicit-int]
+   17 |   void  print(S)
+      |         ^~~~~
+..\EX1.c:19:30: error: request for member 'name' in something not a structure or union
+   19 |           printf("name: %s",S.name);
+      |                              ^
+..\EX1.c:20:30: error: request for member 'roll' in something not a structure or union
+   20 |           printf("Roll: %d",S.roll);
+      |                              ^
+..\EX1.c:21:33: error: request for member 'mark' in something not a structure or union
+   21 |           printf("Marks: %.2f",S.mark);
+      |                                 ^
+..\EX1.c: At top level:
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:28:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   28 |         scanf("%s",&S.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+20:03:32 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'print':
+..\EX1.c:17:9: warning: type of 'S' defaults to 'int' [-Wimplicit-int]
+   17 |   void  print(S)
+      |         ^~~~~
+..\EX1.c:19:30: error: request for member 'name' in something not a structure or union
+   19 |           printf("name: %s",S.name);
+      |                              ^
+..\EX1.c:20:30: error: request for member 'roll' in something not a structure or union
+   20 |           printf("Roll: %d",S.roll);
+      |                              ^
+..\EX1.c:21:33: error: request for member 'mark' in something not a structure or union
+   21 |           printf("Marks: %.2f",S.mark);
+      |                                 ^
+..\EX1.c: At top level:
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:29:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   29 |         scanf("%s",&S.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+20:03:50 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'print':
+..\EX1.c:17:9: warning: type of 'S' defaults to 'int' [-Wimplicit-int]
+   17 |   void  print(S)
+      |         ^~~~~
+..\EX1.c:19:30: error: request for member 'name' in something not a structure or union
+   19 |           printf("name: %s",S.name);
+      |                              ^
+..\EX1.c:20:30: error: request for member 'roll' in something not a structure or union
+   20 |           printf("Roll: %d",S.roll);
+      |                              ^
+..\EX1.c:21:33: error: request for member 'mark' in something not a structure or union
+   21 |           printf("Marks: %.2f",S.mark);
+      |                                 ^
+..\EX1.c: At top level:
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:29:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   29 |         scanf("%s",&S.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+..\EX1.c:39:15: error: expected expression before 'struct'
+   39 |         print(struct Student S);
+      |               ^~~~~~
+20:04:25 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c: In function 'print':
+..\EX1.c:17:9: warning: type of 'S' defaults to 'int' [-Wimplicit-int]
+   17 |   void  print(S)
+      |         ^~~~~
+..\EX1.c:19:30: error: request for member 'name' in something not a structure or union
+   19 |           printf("name: %s",S.name);
+      |                              ^
+..\EX1.c:20:30: error: request for member 'roll' in something not a structure or union
+   20 |           printf("Roll: %d",S.roll);
+      |                              ^
+..\EX1.c:21:33: error: request for member 'mark' in something not a structure or union
+   21 |           printf("Marks: %.2f",S.mark);
+      |                                 ^
+..\EX1.c: At top level:
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:29:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   29 |         scanf("%s",&S.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+20:07:36 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:29:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   29 |         scanf("%s",&g_st.name);
+      |                ~^  ~~~~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+gcc -o EX1.exe EX1.o 
+20:08:19 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:25:7: warning: return type of 'main' is not 'int' [-Wmain]
+   25 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:29:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   29 |         scanf("%s",&g_st.name);
+      |                ~^  ~~~~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+gcc -o EX1.exe EX1.o 
+Info: Nothing to build for EX1
+20:09:47 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:27:7: warning: return type of 'main' is not 'int' [-Wmain]
+   27 |  void main ()
+      |       ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:33:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[25]' [-Wformat=]
+   33 |         scanf("%s",&g_st.name);
+      |                ~^  ~~~~~~~~~~
+      |                 |  |
+      |                 |  char (*)[25]
+      |                 char *
+gcc -o EX1.exe EX1.o 
+21:57:27 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:35:6: warning: return type of 'main' is not 'int' [-Wmain]
+   35 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:37:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   37 |         printf("size of union=%d",sizeof(u));
+      |                               ~^  ~~~~~~~~~
+      |                                |  |
+      |                                |  long long unsigned int
+      |                                int
+      |                               %lld
+..\EX1.c:38:38: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   38 |         printf("\nsize of structure=%d",sizeof(s));
+      |                                     ~^  ~~~~~~~~~
+      |                                      |  |
+      |                                      |  long long unsigned int
+      |                                      int
+      |                                     %lld
+gcc -o EX1.exe EX1.o 
+21:58:17 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:35:6: warning: return type of 'main' is not 'int' [-Wmain]
+   35 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:37:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   37 |         printf("size of union=%d",sizeof(union job));
+      |                               ~^  ~~~~~~~~~~~~~~~~~
+      |                                |  |
+      |                                |  long long unsigned int
+      |                                int
+      |                               %lld
+..\EX1.c:38:38: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   38 |         printf("\nsize of structure=%d",sizeof(struct job1));
+      |                                     ~^  ~~~~~~~~~~~~~~~~~~~
+      |                                      |  |
+      |                                      |  long long unsigned int
+      |                                      int
+      |                                     %lld
+gcc -o EX1.exe EX1.o 

@@ -1,0 +1,29 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: Abdelrahman Maher
+ */
+
+#include "stdio.h"
+
+struct Sdata{
+		unsigned char data1;
+		unsigned int data2;
+		unsigned char data3;
+		unsigned short data4;
+};
+
+void main()
+{
+	struct Sdata X;
+
+	printf("Size of man= %d\n",sizeof(struct Sdata));
+
+	struct Sdata Y;
+	printf("Size of man= %d\n",sizeof(struct Sdata));
+
+	printf("Size of man= %d\n",sizeof(X));
+	printf("Size of man= %d\n",sizeof(Y));
+
+}

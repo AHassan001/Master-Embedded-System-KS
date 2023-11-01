@@ -1,0 +1,40 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 30, 2023
+ *      Author: Abdelrahman Maher
+ */
+
+ /*
+ *
+ * Author: Abdelrahman Maher
+ *
+ */
+
+ /*
+ *
+ * EX4) Store info of students using structure
+ *
+ */
+  #include "stdio.h"
+
+union job{
+	char name[32];
+	float alary;
+	int worker_no;
+
+}u;
+
+struct job1{
+	char name[32];
+	float alary;
+	int worker_no;
+
+}s;
+
+void main()
+{
+	printf("size of union=%d",sizeof(u));
+	printf("\nsize of structure=%d",sizeof(s));
+
+}

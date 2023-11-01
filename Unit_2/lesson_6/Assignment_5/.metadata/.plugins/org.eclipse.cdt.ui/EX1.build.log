@@ -1,1 +1,25 @@
-Info: Nothing to build for EX1
+21:58:17 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+..\EX1.c:35:6: warning: return type of 'main' is not 'int' [-Wmain]
+   35 | void main()
+      |      ^~~~
+..\EX1.c: In function 'main':
+..\EX1.c:37:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   37 |         printf("size of union=%d",sizeof(union job));
+      |                               ~^  ~~~~~~~~~~~~~~~~~
+      |                                |  |
+      |                                |  long long unsigned int
+      |                                int
+      |                               %lld
+..\EX1.c:38:38: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   38 |         printf("\nsize of structure=%d",sizeof(struct job1));
+      |                                     ~^  ~~~~~~~~~~~~~~~~~~~
+      |                                      |  |
+      |                                      |  long long unsigned int
+      |                                      int
+      |                                     %lld
+gcc -o EX1.exe EX1.o 
+
+21:58:17 Build Finished. 0 errors, 3 warnings. (took 327ms)
+

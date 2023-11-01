@@ -1,0 +1,17 @@
+/*
+ * EX1.c
+ *
+ *  Created on: Oct 30, 2023
+ *      Author: Abdelrahman Maher
+ */
+
+#include "stdio.h"
+
+void main()
+{
+
+	printf("current time:%d\n",__TIME__);
+	printf("current time:%s\n",__TIME__);
+
+}
+

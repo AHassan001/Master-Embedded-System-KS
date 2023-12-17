@@ -18,16 +18,16 @@ ALL: $(project).bin
 	@echo "=======Building Process is finished======="
 
 %.o:%.s
-	$(CC)as.exe  $(FLAGS) $(INCS)    $< -o $@
+	$(CC)as.exe  $(FLAGS)  $< -o $@
 
 %.o:%.c
 	$(CC)gcc.exe  $(FLAGS) $(INCS) -c $< -o $@
 
 $(project).elf:$(OBJ) $(AsOBJ)	
-	$(CC)ld.exe -T LinkerScript.ld  $(OBJ) $(AsOBJ) -o $(project).elf -Map=map_file.map
+	$(CC)ld.exe -T LinkerScript.ld  $(OBJ) $(AsOBJ) -o $@ -Map=map_file.map
 
 $(project).bin:$(project).elf
-	$(CC)objcopy.exe	-O binary $(project).elf  $(project).bin
+	$(CC)objcopy.exe	-O binary $< $@
 
 Clear:
 	rm *.elf *.bin *.map

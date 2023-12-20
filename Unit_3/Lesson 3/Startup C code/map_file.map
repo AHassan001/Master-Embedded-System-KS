@@ -1,0 +1,143 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+g_un_variables      0x1               Toggle.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x08000000         0x00020000         xr
+sram             0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x08000000      0x1c0
+ *(.vectors*)
+ .vectors       0x08000000       0x58 startup.o
+                0x08000000                vectors
+ *(.text*)
+ .text          0x08000058       0xa8 startup.o
+                0x08000058                FLASH_Handler
+                0x08000058                SVCall_Handler
+                0x08000058                SysTick_Handler
+                0x08000058                PendSV_Handler
+                0x08000058                NMI_Handler
+                0x08000058                WWDG_Handler
+                0x08000058                RTC_Handler
+                0x08000058                UsageFault_Handler
+                0x08000058                EXTI1_Handler
+                0x08000058                Reset_Handler
+                0x08000058                EXTI2_Handler
+                0x08000058                Reserved_Handler
+                0x08000058                EXTI0_Handler
+                0x08000058                RCC_Handler
+                0x08000058                PVD_Handler
+                0x08000058                MM_mange_Handler
+                0x08000058                BusFault_Handler
+                0x08000058                DebugMonitor_Handler
+                0x08000058                TAMPER_Handler
+ .text          0x08000100       0xbc Toggle.o
+                0x08000100                main
+                0x080001b0                HardFault_Handler
+ *(.rodata)
+ .rodata        0x080001bc        0x1 Toggle.o
+                0x080001bc                g_c_i_variables
+                0x080001c0                . = ALIGN (0x4)
+ *fill*         0x080001bd        0x3 
+                0x080001c0                _e_text = .
+
+.glue_7         0x080001c0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x080001c0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x080001c0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x080001c0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x080001c0        0x0
+ .iplt          0x00000000        0x0 startup.o
+
+.rel.dyn        0x080001c0        0x0
+ .rel.iplt      0x00000000        0x0 startup.o
+
+.data           0x20000000        0x8 load address 0x080001c0
+                0x20000000                _s_data = .
+ *(.data)
+ .data          0x20000000        0x0 startup.o
+ .data          0x20000000        0x8 Toggle.o
+                0x20000000                R_ODR
+                0x20000004                g_i_variables
+                0x20000008                . = ALIGN (0x4)
+                0x20000008                _e_data = .
+
+.igot.plt       0x20000008        0x0 load address 0x080001c8
+ .igot.plt      0x00000000        0x0 startup.o
+
+.bss            0x20000008     0x1005 load address 0x080001c8
+                0x20000008                _s_bss = .
+ *(.bss*)
+ .bss           0x20000008        0x0 startup.o
+ .bss           0x20000008        0x1 Toggle.o
+                0x20000008                g_i_W_0_variables
+                0x2000000c                . = ALIGN (0x4)
+ *fill*         0x20000009        0x3 
+                0x2000000c                _e_bss = .
+                0x2000100c                . = (. + 0x1000)
+ *fill*         0x2000000c     0x1000 
+                0x2000100c                _stack_top = .
+ COMMON         0x2000100c        0x1 Toggle.o
+                0x2000100c                g_un_variables
+LOAD startup.o
+LOAD Toggle.o
+OUTPUT(Toggle_Led_cortex_M3.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x2cd
+ .debug_info    0x00000000      0x151 startup.o
+ .debug_info    0x00000151      0x17c Toggle.o
+
+.debug_abbrev   0x00000000      0x18a
+ .debug_abbrev  0x00000000       0xac startup.o
+ .debug_abbrev  0x000000ac       0xde Toggle.o
+
+.debug_loc      0x00000000       0x9c
+ .debug_loc     0x00000000       0x38 startup.o
+ .debug_loc     0x00000038       0x64 Toggle.o
+
+.debug_aranges  0x00000000       0x40
+ .debug_aranges
+                0x00000000       0x20 startup.o
+ .debug_aranges
+                0x00000020       0x20 Toggle.o
+
+.debug_line     0x00000000       0xe7
+ .debug_line    0x00000000       0x79 startup.o
+ .debug_line    0x00000079       0x6e Toggle.o
+
+.debug_str      0x00000000      0x187
+ .debug_str     0x00000000       0xf8 startup.o
+                                0x11a (size before relaxing)
+ .debug_str     0x000000f8       0x8f Toggle.o
+                                0x12b (size before relaxing)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 startup.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 Toggle.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 startup.o
+ .ARM.attributes
+                0x00000033       0x33 Toggle.o
+
+.debug_frame    0x00000000       0x74
+ .debug_frame   0x00000000       0x30 startup.o
+ .debug_frame   0x00000030       0x44 Toggle.o
